@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Context>
+    <Resource name="jdbc/flower-bouquet" auth="Container"
+          type="javax.sql.ConnectionPoolDataSource" driverClassName="com.mysql.cj.jdbc.Driver"
+          url="jdbc:mysql://localhost:3306/flowerdb"
+          username="admin" password="admin" maxActive="20" maxIdle="2" useSSL="false"
+          maxWait="10000"/>
+</Context>
